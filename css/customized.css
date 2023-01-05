@@ -69,3 +69,17 @@ h1, h2, h3 {
     justify-content: center;
     margin: 3px;
 }
+
+.sidebar {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: start;
+}
+
+.sidebar > img {
+    border: 5px solid #E6E6E6;
+    width: 28%;
+    height: auto;
+    border-radius: 5%;
+}
