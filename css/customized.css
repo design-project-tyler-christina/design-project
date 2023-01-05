@@ -7,14 +7,10 @@ h1, h2, h3 {
     font-family: 'Anton', sans-serif;
 }
 
-span {
-    width: 80px;
-    height: 80px;
-}
 
 .circle {
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     border: 7px solid white;
     text-align: center;
@@ -22,23 +18,25 @@ span {
     font-family: 'Anton', sans-serif;
     padding: 0;
     box-sizing:border-box;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-#red {
+.red {
     background-color: #E6563B;
 }
 
-#orange {
+.orange {
     background-color: #EB9D3A;
 }
 
-#green {
+.green {
     background-color: #7CB06C;
 
 }
 
-#blue {
+.blue {
     background-color: #00ABA9;
 }
 
@@ -54,4 +52,20 @@ span {
     border: 7px solid #E6E6E6;
     width: 300px;
     height: auto;
+}
+
+.icon {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    font-size: 12px;
+    text-align: center;
+    color: #000000;
+    font-family: 'Anton', sans-serif;
+    padding: 0;
+    box-sizing:border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3px;
 }
