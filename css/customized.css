@@ -50,7 +50,7 @@ h1, h2, h3 {
 
 .pics > img {
     border: 7px solid #E6E6E6;
-    width: 300px;
+    width: 100%;
     height: auto;
 }
 
