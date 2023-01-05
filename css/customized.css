@@ -52,6 +52,7 @@ h1, h2, h3 {
     border: 7px solid #E6E6E6;
     width: 100%;
     height: auto;
+
 }
 
 .icon {
@@ -71,7 +72,6 @@ h1, h2, h3 {
 }
 
 .sidebar {
-    margin-top: 30px;
     margin-bottom: 30px;
     display: flex;
     justify-content: start;
@@ -82,4 +82,5 @@ h1, h2, h3 {
     width: 28%;
     height: auto;
     border-radius: 5%;
+    margin: 0 0 10px 0;
 }
