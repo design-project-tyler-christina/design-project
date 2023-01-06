@@ -9,8 +9,8 @@ h1, h2, h3 {
 
 
 .circle {
-    width: 100px;
-    height: 100px;
+    min-width: 150px;
+    min-height: 150px;
     border-radius: 50%;
     border: 7px solid white;
     text-align: center;
